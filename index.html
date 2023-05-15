@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ignacio Poledo</title>
+    <title>Ignacio Poledo Paz</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="assest/otro logo.svg" />
   </head>
@@ -21,8 +21,8 @@
     </header>
     <main>
       <section id="yo">
+        <h1>About Me</h1>
         <div class="sobremi">
-          <h1>About Me</h1>
           <p>
             Hola!!! Me presento, soy Ignacio Poledo Paz, soy de Argentina Bs.
             As. , nací el 12/12/2000 y vivo actualmente en Avellaneda. Estudie
@@ -31,18 +31,19 @@
             Mercantil. Luego arranque a estudiar la carrera terciaria de Agente
             de Propaganda Médica (APM) en la cual me recibí en el año 2020 con
             las matriculas para ejercer en Provincia y Capital. En el 2021
-            arranco a cursar la carrera de Diseño Gráfico Digital en el
+            arranque a cursar la carrera de Diseño Gráfico Digital en el
             Instituto Nuevos Aires, curse 2 años de esta misma y me di cuenta
             que mi interes iba mas por la programacion, entonces fue donde
             cambio de carrera y me anoto al bootcamp full stack de NUCBA, en el
             cual me encuentro cursando actualmente.
           </p>
-        </div>
-        <div class="fotomia">
-          <img
-            src="https://via.placeholder.com/200 x 200"
-            alt="Ignacio Poledo Paz"
-          />
+          <div class="fotomia">
+            <img
+              class="yo"
+              src="./assest/Foto mia.jpg"
+              alt="Ignacio Poledo Paz"
+            />
+          </div>
         </div>
       </section>
       <section id="habilities">
@@ -57,7 +58,7 @@
           <div class="diseño">
             <img
               class="ai"
-              src="./assest/logos/ai.svg"
+              src="./assest/logos/Illustrator-Logo.png"
               alt="ADOBE ILLUSTRATOR"
             />
             <img
@@ -87,25 +88,26 @@
       <section id="contactarme">
         <h2>Contact</h2>
         <div class="contacto">
-          <p>
-            <b>ESTO VA A SER UN FORMULARIO </b> Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Praesentium dignissimos doloremque,
-            minus qui, ea eos voluptate ipsam placeat aut esse sint sit
-            laudantium itaque incidunt error ipsum ex voluptatem non! Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Quis ad officiis
-            esse dolorum! Veniam tenetur similique corrupti labore optio
-            voluptatibus, ullam odit rem, voluptatum dignissimos quam,
-            cupiditate culpa neque praesentium. Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Tenetur aperiam eos nobis odio, id
-            molestias, quaerat, impedit natus nostrum rem consectetur quasi
-            harum eligendi. Voluptatum dolorum totam cupiditate ratione
-            reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Inventore eum quae, quaerat maiores quis delectus ipsum nisi
-            eligendi tempora deleniti aspernatur porro suscipit doloremque odio
-            illo at in a unde!
-          </p>
+          <div class="Dmail">
+            <label for="Email">Email address</label>
+            <input class="mail" type="email" id="Email" />
+          </div>
+          <div class="info">
+            <label for="desarrolle">Information</label>
+            <textarea class="area" id="desarrolle"></textarea>
+          </div>
+          <div class="enviar">
+            <input class="boton" type="submit" value="Enviar" />
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="linea"></div>
+      <div class="footeramor">
+        <img class="logo" src="./assest/otro logo.svg" alt="Logo de Ignacio" />
+        <p>Hecho con ❤ por Ignacio Poledo Paz</p>
+      </div>
+    </footer>
   </body>
 </html>
