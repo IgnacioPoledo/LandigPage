@@ -236,7 +236,7 @@ main {
   .fotomia {
     width: 60%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
   }
   .linea {
@@ -260,7 +260,7 @@ main {
   .fotomia img {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 320px;
   }
   .sobremi {
@@ -268,10 +268,11 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
     gap: 10px;
   }
-  #habilities h2 {
+  #habilities :first-child {
     font-size: 28px;
   }
   .programacion img {
@@ -283,5 +284,11 @@ main {
   }
   .linea {
     width: 35%;
+  }
+  .mail {
+    width: 70%;
+  }
+  .area {
+    width: 250px;
   }
 }
