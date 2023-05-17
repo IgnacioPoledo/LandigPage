@@ -270,7 +270,7 @@ main {
     align-content: center;
     flex-direction: column;
     width: 100%;
-    gap: 10px;
+    gap: 30px;
   }
   #habilities :first-child {
     font-size: 28px;
