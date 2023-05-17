@@ -252,7 +252,7 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
-    max-width: 1500px;
+    width: 100%;
   }
   #yo h1 {
     font-size: 50px;
