@@ -238,6 +238,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   .linea {
     border-radius: 10px;
