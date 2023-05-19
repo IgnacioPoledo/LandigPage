@@ -29,6 +29,40 @@ ul {
 .navbar {
   display: flex;
 }
+
+/*ANIMACION DEL ABOUT ME E IMAGEN*/
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(590px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.scale {
+  animation: scale 2s infinite;
+}
+.fotomia {
+  animation: slide-right 1.5s ease-in-out, fade 1s ease-in forwards;
+  animation-delay: 0.2s;
+}
+/*FIN DEL USO DE LA ANIMACION*/
 .navbar,
 .navbar-list a {
   color: white;
@@ -83,10 +117,30 @@ main {
   align-items: flex-start;
   width: 60%;
 }
+/*ANIMACION DEL P*/
+@keyframes slide-left {
+  0% {
+    transform: translateX(-590px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fade2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .sobremi p {
   font-size: 15px;
   width: 70%;
+  animation: slide-left 1.5s ease-in-out, fade2 1s ease-in forwards;
+  animation-delay: 0.2s;
 }
+/*FIN DEL USO DE LA ANIMACION*/
 .fotomia {
   width: 60%;
   display: flex;
